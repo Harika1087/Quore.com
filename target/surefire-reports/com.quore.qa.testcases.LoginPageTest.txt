@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.quore.qa.testcases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 10, Time elapsed: 0.812 sec <<< FAILURE! - in com.quore.qa.testcases.LoginPageTest
+setUp(com.quore.qa.testcases.LoginPageTest)  Time elapsed: 0.563 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.quore.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+

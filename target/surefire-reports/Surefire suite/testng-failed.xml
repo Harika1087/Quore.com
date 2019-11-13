@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="com.quore.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.quore.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="invalidUserName"/>
+          <include name="executeSuite"/>
+          <include name="validLogin"/>
+          <include name="invalidLogin"/>
+          <include name="setUp"/>
+          <include name="invalidPassword"/>
+        </methods>
+      </class> <!-- com.quore.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
